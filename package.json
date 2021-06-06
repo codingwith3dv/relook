@@ -4,7 +4,7 @@
   "description": "A testing framework made for nueva",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node ./node_modules/typescript/bin/tsc -w"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/codingwith3dv/retric/issues"
   },
-  "homepage": "https://github.com/codingwith3dv/retric#readme"
+  "homepage": "https://github.com/codingwith3dv/retric#readme",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
 }
